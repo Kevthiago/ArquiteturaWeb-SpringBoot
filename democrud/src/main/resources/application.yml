@@ -1,0 +1,26 @@
+spring: 
+    application:
+        name: democrud
+
+    sql: 
+        init:
+            mode: always
+
+    datasource:
+        url: jdbc:h2:file:C:\Users\12120421\Desktop\democrud\src\main\resources\database.sql 
+        driverClassName: org.h2.Driver
+        username: kevinthiago126
+        password: 
+
+    h2: 
+        console: 
+            enabled: true
+            path: /h2-console
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.h2Dialect
