@@ -22,7 +22,7 @@ public class Tarefa {
     private String descricao;
 
     @NotNull
-    private String status; // Ex.: "Em andamento", "Concluído"
+    private String status;
 
     private LocalDateTime dataCriacao;
 }
