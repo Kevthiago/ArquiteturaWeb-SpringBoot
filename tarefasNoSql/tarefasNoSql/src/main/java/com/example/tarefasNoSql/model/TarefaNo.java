@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class TarefaNo {
 
     @Id
-    private String id; // MongoDB usa geralmente String (ObjectId)
+    private String id;
 
     @NotNull
     @Size(min = 3, max = 100)

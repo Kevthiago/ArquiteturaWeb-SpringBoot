@@ -1,6 +1,6 @@
 spring:
   application:
-    name: tarefas
+    name: tarefasNoSQL
   data:
     mongodb:
-      uri: mongodb://localhost:27017/tarefas
+      uri: mongodb+srv://kevinthiago126:Ciencia230498@cluster0.ragc77z.mongodb.net/tarefaNoSQL?retryWrites=true&w=majority
