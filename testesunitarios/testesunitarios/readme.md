@@ -72,12 +72,11 @@ Os testes foram executados diretamente pela IDEA do VSCode e os logs de execuç�
 
 ### ✅ Logs de `UsuarioControllerTest`
 
-%TSTTREE3,testCriarUsuario(...),false,1,false,2
-%TSTTREE4,testBuscarUsuarioNaoEncontrado(...),false,1,false,2
-%TSTTREE5,testBuscarUsuarioExistente(...),false,1,false,2
-%TSTTREE6,testListarUsuarios(...),false,1,false,2
-%RUNTIME3406
-
+- %TSTTREE3,testCriarUsuario(...),false,1,false,2  
+- %TSTTREE4,testBuscarUsuarioNaoEncontrado(...),false,1,false,2  
+- %TSTTREE5,testBuscarUsuarioExistente(...),false,1,false,2  
+- %TSTTREE6,testListarUsuarios(...),false,1,false,2  
+- %RUNTIME3406
 
 **Significado:**
 - Cada linha `%TSTTREE` representa um teste unitário executado.
@@ -94,11 +93,11 @@ Todos os 4 testes do controller passaram corretamente ✅
 
 ### ✅ Logs de `UsuarioServiceTest`
 
-%TSTTREE3,testBuscarPorId_Existente(...),false,1,false,2
-%TSTTREE4,testSalvarUsuario(...),false,1,false,2
-%TSTTREE5,testBuscarPorId_NaoEncontrado(...),false,1,false,2
-%TSTTREE6,testListarTodos(...),false,1,false,2
-%RUNTIME4327
+- %TSTTREE3,testBuscarPorId_Existente(...),false,1,false,2
+- %TSTTREE4,testSalvarUsuario(...),false,1,false,2
+- %TSTTREE5,testBuscarPorId_NaoEncontrado(...),false,1,false,2
+- %TSTTREE6,testListarTodos(...),false,1,false,2
+- %RUNTIME4327
 
 
 **Significado:**
